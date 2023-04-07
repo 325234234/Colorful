@@ -107,6 +107,7 @@ main {
 #color4,
 #color5 {
     grid-row: 1;
+    transition: all 0.5s ease-in-out;
 }
 
 #color1:hover,
@@ -114,7 +115,7 @@ main {
 #color3:hover,
 #color4:hover,
 #color5:hover {
-    transform:scale(1.05);
+    transform:scale(1.1);
     filter:brightness(1.2);
 }
 
