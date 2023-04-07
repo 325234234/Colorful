@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>        
+        <title>Color palette picker</title>
+        
+        <!-- Meta -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- CSS -->
+        <link rel="stylesheet" href="index.css">
+        
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+        <!-- Icons -->
+    </head>
+
+    <body>
+        <header>
+            <input id="colorpicker" type="color" value="#1F2937">
+            <select id="colorschemes">
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome (dark)</option>
+                <option value="monochrome-light">Monochrome (light)</option>
+                <option value="analogic">Analogous</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogous-complement</option>
+                <option value="triad">Triad</option>
+              </select>
+              <!-- <button id="button">Colors!</button> -->
+        </header>
+
+        <main>
+            <div id="color1"></div>
+            <div id="color1label">#000000</div>        
+            <div id="color2"></div>
+            <div id="color2label">#131820</div>                        
+            <div id="color3"></div>
+            <div id="color3label">#253141</div>                        
+            <div id="color4"></div>
+            <div id="color4label">#374962</div>                        
+            <div id="color5"></div>
+            <div id="color5label">#486184</div>                
+        </main>
+
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
