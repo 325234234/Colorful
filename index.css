@@ -8,11 +8,7 @@
 /* Typography */
 
 body,
-#color1label,
-#color2label,
-#color3label,
-#color4label,
-#color5label {
+.label {
     font-family: 'Inter', sans-serif;
 }
 
@@ -101,21 +97,14 @@ main {
     gap: 1em;
 }
 
-#color1,
-#color2,
-#color3,
-#color4,
-#color5 {
+.color {
     grid-row: 1;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.3s linear;
+    transition: background-color 1.5s ease-in-out;
 }
 
-#color1:hover,
-#color2:hover,
-#color3:hover,
-#color4:hover,
-#color5:hover {
-    transform:scale(1.1);
+.color:hover {
+    transform:scale(1.05);
     filter:brightness(1.2);
 }
 
@@ -144,11 +133,7 @@ main {
     background-color: #486184;
 }
 
-#color1label,
-#color2label,
-#color3label,
-#color4label,
-#color5label {
+.label {
     display: flex;
     justify-content: center;
     align-items: center;

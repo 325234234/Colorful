@@ -6,11 +6,11 @@ const colors = [
     document.getElementById("color5")
 ]
 const colorLabels = [
-    document.getElementById("color1label"),
-    document.getElementById("color2label"),
-    document.getElementById("color3label"),
-    document.getElementById("color4label"),
-    document.getElementById("color5label")
+    document.getElementById("label1"),
+    document.getElementById("label2"),
+    document.getElementById("label3"),
+    document.getElementById("label4"),
+    document.getElementById("label5")
 ]
 const schemeMenu = document.getElementById("colorschemes")
 const colorPicker = document.getElementById("colorpicker")
